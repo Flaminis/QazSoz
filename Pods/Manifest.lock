@@ -1,0 +1,21 @@
+PODS:
+  - Bolts/Tasks (1.8.4)
+  - EasyPeasy (1.4.2)
+  - Parse (1.14.4):
+    - Bolts/Tasks (~> 1.8)
+  - SCLAlertView (0.7.0)
+
+DEPENDENCIES:
+  - EasyPeasy
+  - Parse
+  - SCLAlertView
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  EasyPeasy: 50e7130b61f495ce105796e438d4136e2c8d2cc0
+  Parse: b0aa91d2c435e53d4a9af26e741e014c9b35c42e
+  SCLAlertView: 8a14ffc40590c619e183eed2298b854385f30be1
+
+PODFILE CHECKSUM: 9299dfc599b6de5e5ced731f9cae1c1e9848655c
+
+COCOAPODS: 1.2.0

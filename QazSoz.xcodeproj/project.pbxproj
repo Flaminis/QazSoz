@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		276B627A1EF3FF1900FC9889 /* QSTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B62791EF3FF1900FC9889 /* QSTextView.swift */; };
+		276B627C1EF7ED1400FC9889 /* ParseSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B627B1EF7ED1400FC9889 /* ParseSet.swift */; };
+		276B627E1EF7EDDB00FC9889 /* Suggestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B627D1EF7EDDB00FC9889 /* Suggestion.swift */; };
+		276B62801EF7EE8D00FC9889 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276B627F1EF7EE8D00FC9889 /* AlertHelper.swift */; };
 		27B356551EF3C91000FDE49F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B356541EF3C91000FDE49F /* AppDelegate.swift */; };
 		27B356571EF3C91000FDE49F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B356561EF3C91000FDE49F /* ViewController.swift */; };
-		27B3565A1EF3C91000FDE49F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B356581EF3C91000FDE49F /* Main.storyboard */; };
 		27B3565C1EF3C91000FDE49F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27B3565B1EF3C91000FDE49F /* Assets.xcassets */; };
 		27B3565F1EF3C91000FDE49F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27B3565D1EF3C91000FDE49F /* LaunchScreen.storyboard */; };
+		27B356671EF3D43F00FDE49F /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27B356661EF3D43F00FDE49F /* Translator.swift */; };
+		61E088F21301E08AE4DF18B1 /* Pods_QazSoz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908EF758470DE46588FA3E27 /* Pods_QazSoz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		182F4625330D7F2790A9D2F3 /* Pods-QazSoz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QazSoz.release.xcconfig"; path = "Pods/Target Support Files/Pods-QazSoz/Pods-QazSoz.release.xcconfig"; sourceTree = "<group>"; };
+		276B62791EF3FF1900FC9889 /* QSTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QSTextView.swift; sourceTree = "<group>"; };
+		276B627B1EF7ED1400FC9889 /* ParseSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseSet.swift; sourceTree = "<group>"; };
+		276B627D1EF7EDDB00FC9889 /* Suggestion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suggestion.swift; sourceTree = "<group>"; };
+		276B627F1EF7EE8D00FC9889 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
 		27B356511EF3C91000FDE49F /* QazSoz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QazSoz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27B356541EF3C91000FDE49F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27B356561EF3C91000FDE49F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		27B356591EF3C91000FDE49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27B3565B1EF3C91000FDE49F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27B3565E1EF3C91000FDE49F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27B356601EF3C91000FDE49F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27B356661EF3D43F00FDE49F /* Translator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		4623E43F2A28ACC389BFBB5F /* Pods-QazSoz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QazSoz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QazSoz/Pods-QazSoz.debug.xcconfig"; sourceTree = "<group>"; };
+		908EF758470DE46588FA3E27 /* Pods_QazSoz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QazSoz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E088F21301E08AE4DF18B1 /* Pods_QazSoz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		276B62781EF3FF0A00FC9889 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				276B62791EF3FF1900FC9889 /* QSTextView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		27B356481EF3C91000FDE49F = {
 			isa = PBXGroup;
 			children = (
 				27B356531EF3C91000FDE49F /* QazSoz */,
 				27B356521EF3C91000FDE49F /* Products */,
+				AEA62164DE8CF50284E4C91E /* Pods */,
+				DA180B264F8477449F3556C1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +77,35 @@
 		27B356531EF3C91000FDE49F /* QazSoz */ = {
 			isa = PBXGroup;
 			children = (
+				276B62781EF3FF0A00FC9889 /* Views */,
 				27B356541EF3C91000FDE49F /* AppDelegate.swift */,
+				276B627D1EF7EDDB00FC9889 /* Suggestion.swift */,
 				27B356561EF3C91000FDE49F /* ViewController.swift */,
-				27B356581EF3C91000FDE49F /* Main.storyboard */,
+				276B627F1EF7EE8D00FC9889 /* AlertHelper.swift */,
 				27B3565B1EF3C91000FDE49F /* Assets.xcassets */,
 				27B3565D1EF3C91000FDE49F /* LaunchScreen.storyboard */,
 				27B356601EF3C91000FDE49F /* Info.plist */,
+				27B356661EF3D43F00FDE49F /* Translator.swift */,
+				276B627B1EF7ED1400FC9889 /* ParseSet.swift */,
 			);
 			path = QazSoz;
+			sourceTree = "<group>";
+		};
+		AEA62164DE8CF50284E4C91E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4623E43F2A28ACC389BFBB5F /* Pods-QazSoz.debug.xcconfig */,
+				182F4625330D7F2790A9D2F3 /* Pods-QazSoz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA180B264F8477449F3556C1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				908EF758470DE46588FA3E27 /* Pods_QazSoz.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +115,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27B356631EF3C91000FDE49F /* Build configuration list for PBXNativeTarget "QazSoz" */;
 			buildPhases = (
+				4FE3572709E968A04F4CB381 /* [CP] Check Pods Manifest.lock */,
 				27B3564D1EF3C91000FDE49F /* Sources */,
 				27B3564E1EF3C91000FDE49F /* Frameworks */,
 				27B3564F1EF3C91000FDE49F /* Resources */,
+				04AAC732C275F7BBF1A0C009 /* [CP] Embed Pods Frameworks */,
+				97A67607215446D71A0A0991 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,7 +143,7 @@
 				TargetAttributes = {
 					27B356501EF3C91000FDE49F = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = A92UW2429U;
+						DevelopmentTeam = P993BJWE94;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,33 +173,77 @@
 			files = (
 				27B3565F1EF3C91000FDE49F /* LaunchScreen.storyboard in Resources */,
 				27B3565C1EF3C91000FDE49F /* Assets.xcassets in Resources */,
-				27B3565A1EF3C91000FDE49F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		04AAC732C275F7BBF1A0C009 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QazSoz/Pods-QazSoz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FE3572709E968A04F4CB381 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		97A67607215446D71A0A0991 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QazSoz/Pods-QazSoz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		27B3564D1EF3C91000FDE49F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				276B627C1EF7ED1400FC9889 /* ParseSet.swift in Sources */,
 				27B356571EF3C91000FDE49F /* ViewController.swift in Sources */,
+				27B356671EF3D43F00FDE49F /* Translator.swift in Sources */,
 				27B356551EF3C91000FDE49F /* AppDelegate.swift in Sources */,
+				276B62801EF7EE8D00FC9889 /* AlertHelper.swift in Sources */,
+				276B627A1EF3FF1900FC9889 /* QSTextView.swift in Sources */,
+				276B627E1EF7EDDB00FC9889 /* Suggestion.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		27B356581EF3C91000FDE49F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27B356591EF3C91000FDE49F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		27B3565D1EF3C91000FDE49F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,9 +350,10 @@
 		};
 		27B356641EF3C91000FDE49F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4623E43F2A28ACC389BFBB5F /* Pods-QazSoz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A92UW2429U;
+				DEVELOPMENT_TEAM = P993BJWE94;
 				INFOPLIST_FILE = QazSoz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flaminis.QazSoz;
@@ -272,9 +364,10 @@
 		};
 		27B356651EF3C91000FDE49F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 182F4625330D7F2790A9D2F3 /* Pods-QazSoz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = A92UW2429U;
+				DEVELOPMENT_TEAM = P993BJWE94;
 				INFOPLIST_FILE = QazSoz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Flaminis.QazSoz;
@@ -302,6 +395,7 @@
 				27B356651EF3C91000FDE49F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
