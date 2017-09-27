@@ -23,8 +23,6 @@ class ViewController: UIViewController, UITextViewDelegate {
         textView.placeholder = "Енди сиз казакша жаза аласыз!"
         textView.layer.cornerRadius = 8
         textView.autocapitalizationType = .none
-        
-        
         return textView
     }()
     private lazy var kazakhCyrillic: QSTextView = {
@@ -47,7 +45,7 @@ class ViewController: UIViewController, UITextViewDelegate {
         textView.isEditable = false
         textView.autocorrectionType = .no
         textView.returnKeyType = .done
-        textView.placeholder = "Endi siz qazaqşa jaza alasiz!"
+        textView.placeholder = "Endi siz qazaqsha zhaza alasiz!"
         textView.tag = 2
         textView.layer.cornerRadius = 8
         return textView
@@ -91,7 +89,7 @@ class ViewController: UIViewController, UITextViewDelegate {
     private lazy var suggestButton: UIButton = {
         let button = UIButton()
         let darkBlue = UIColor(red: 0, green: 0.42, blue: 0.63, alpha: 1)
-        button.setTitle("Kömek ũsinu", for: .normal)
+        button.setTitle("Koemek Usinu", for: .normal)
         button.setTitleColor(blueColor, for: .normal)
         button.setTitleColor(darkBlue, for: .highlighted)
         button.backgroundColor = .white
@@ -107,6 +105,7 @@ class ViewController: UIViewController, UITextViewDelegate {
         
         setupViews()
         setupConstraints()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -125,7 +124,6 @@ class ViewController: UIViewController, UITextViewDelegate {
             Right(10)
         ]
         initialText <- [
-            CenterX(0),
             Top(12).to(appTitle),
             Height(self.view.bounds.height/6.9),
             Left(8),
@@ -198,22 +196,22 @@ class ViewController: UIViewController, UITextViewDelegate {
         sugText.autocorrectionType = .no
         wrongText.spellCheckingType = .no
         wrongText.autocorrectionType = .no
-        alertView.addButton("Ũsinu") {
+        alertView.addButton("Usnu") {
             let suggestion = Suggestion()
             suggestion.sugg = sugText.text!
             suggestion.wrongWord = wrongText.text!
             suggestion.saveInBackground()
             let thanksView = SCLAlertView(appearance: AlertHelper.suggestApearance())
-            thanksView.addButton("Jabu", action: {})
+            thanksView.addButton("Zhabu", action: {})
             thanksView.showSuccess("Rahmet",
-                                             subTitle: "Eger sizde suraqtariñiz bolsa t.me/feargreed habarlasiñiz",
+                                             subTitle: " t.me/feargreed habarlasiñiz",
                                              colorStyle: 0x019ED3, colorTextButton: 0xFFFFFF)
         }
         alertView.addButton("Artqa") {
         
         }
         
-        alertView.showSuccess("Kömek ũsinu",
+        alertView.showSuccess("Koemek Usinu",
                               subTitle: "Kandai söz duris audarilmadi?",
                               colorStyle: 0x019ED3, colorTextButton: 0xFFFFFF)
     }
